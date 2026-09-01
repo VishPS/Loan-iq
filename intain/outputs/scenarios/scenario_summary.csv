@@ -1,0 +1,7 @@
+Scenario,Target,Base_Prob,Stressed_Prob,Absolute_Change,Relative_Change_Pct
+Adverse Credit,next_3m_delinquency_flag,0.04575636389791932,0.04577652925376272,2.0165355843405897e-05,0.04407115016480336
+High Prepayment,next_3m_delinquency_flag,0.04575636389791932,0.04575636389791932,0.0,0.0
+Adverse Credit,next_12m_default_flag,0.04086504050938585,0.04086060384467776,-4.436664708090676e-06,-0.010856870940998251
+High Prepayment,next_12m_default_flag,0.04086504050938585,0.04086504050938585,0.0,0.0
+Adverse Credit,next_12m_prepayment_flag,0.0,0.0,0.0,0.0
+High Prepayment,next_12m_prepayment_flag,0.0,0.0,0.0,0.0

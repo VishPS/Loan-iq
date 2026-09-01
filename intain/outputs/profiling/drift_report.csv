@@ -1,0 +1,4 @@
+feature,psi,drift_status
+borrower_credit_score,,No Drift
+dti,,No Drift
+orig_ltv,,No Drift
