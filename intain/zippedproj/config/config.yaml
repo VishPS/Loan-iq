@@ -1,0 +1,22 @@
+project:
+  name: "LoanIQ"
+  seed: 42
+
+data:
+  raw_data_path: "data/sf-loan-performance-data-sample.csv"
+  processed_path: "data/processed/loan_data_processed.csv"
+  num_samples: 10000
+
+models:
+  save_dir: "models/"
+  xgboost_params:
+    max_depth: 6
+    learning_rate: 0.1
+    n_estimators: 100
+    random_state: 42
+
+reports:
+  base_dir: "reports/"
+
+outputs:
+  submission_file: "outputs/submission.csv"

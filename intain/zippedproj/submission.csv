@@ -1,0 +1,6 @@
+loan_id,reporting_period,next_3m_delinquency_probability,next_6m_delinquency_probability,next_12m_default_probability,next_12m_prepayment_probability,next_state,exception_required,exception_type,anomaly_score,top_drivers,recommended_action,confidence
+100023020488,62020,0.011122380197048188,0.013346856236457824,0.0,0.0,0,0,,11.6852294836148,"orig_ltv, dpd_rolling_3m_max, dpd",Proceed,High
+100039488159,52020,0.009209390846081078,0.011051269015297294,6.367388414219022e-05,0.0,0,0,,14.226450637670606,"orig_ltv, dpd_rolling_3m_max, dpd",Proceed,High
+100829595540,102018,0.0159774973988533,0.01917299687862396,0.00910129013718688,0.0,0,0,,19.87195640250385,"orig_ltv, dpd_rolling_3m_max, dpd",Proceed,High
+102218329006,62020,0.036967475712299344,0.044360970854759214,0.012006364553235472,0.0,0,0,,0.0,"orig_ltv, dpd_rolling_3m_max, dpd",Proceed,High
+102458150755,62020,0.011122380197048188,0.013346856236457824,0.0,0.0,0,0,,5.690592282448358,"orig_ltv, dpd_rolling_3m_max, dpd",Proceed,High

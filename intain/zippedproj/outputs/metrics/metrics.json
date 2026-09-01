@@ -1,0 +1,143 @@
+{
+    "next_3m_delinquency_flag_LogisticRegression": {
+        "roc_auc": 1.0,
+        "pr_auc": 1.0,
+        "f1": 0.9230769230769231,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "recall_at_90_precision": 1.0,
+        "brier_score": 0.011070834667964642,
+        "confusion_matrix": [
+            [
+                102,
+                1
+            ],
+            [
+                0,
+                6
+            ]
+        ]
+    },
+    "next_3m_delinquency_flag_XGBoost": {
+        "roc_auc": 0.9951456310679612,
+        "pr_auc": 0.8571428571428571,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "recall_at_90_precision": 0.0,
+        "brier_score": 0.021042529098596875,
+        "confusion_matrix": [
+            [
+                103,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "next_12m_default_flag_LogisticRegression": null,
+    "next_12m_default_flag_XGBoost": null,
+    "next_12m_prepayment_flag_LogisticRegression": {
+        "roc_auc": 0.6764346764346764,
+        "pr_auc": 0.34696974504569134,
+        "f1": 0.47058823529411764,
+        "precision": 0.36363636363636365,
+        "recall": 0.6666666666666666,
+        "recall_at_90_precision": 0.0,
+        "brier_score": 0.18888734036117982,
+        "confusion_matrix": [
+            [
+                70,
+                21
+            ],
+            [
+                6,
+                12
+            ]
+        ]
+    },
+    "next_12m_prepayment_flag_XGBoost": {
+        "roc_auc": 0.5,
+        "pr_auc": 0.1651376146788991,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "recall_at_90_precision": 0.0,
+        "brier_score": 0.1651376146788991,
+        "confusion_matrix": [
+            [
+                91,
+                0
+            ],
+            [
+                18,
+                0
+            ]
+        ]
+    },
+    "Multiclass_LogisticRegression": {
+        "macro_f1": 0.46158729538617804,
+        "accuracy": 0.7614678899082569,
+        "confusion_matrix": [
+            [
+                77,
+                1,
+                0,
+                23
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                5,
+                0
+            ],
+            [
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "classes": [
+            "Current",
+            "Default",
+            "Delinquent",
+            "Prepaid"
+        ]
+    },
+    "Multiclass_XGBoost": {
+        "macro_f1": 0.5935275080906149,
+        "accuracy": 0.963302752293578,
+        "confusion_matrix": [
+            [
+                101,
+                0,
+                0
+            ],
+            [
+                2,
+                4,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ]
+        ],
+        "classes": [
+            "Current",
+            "Default",
+            "Delinquent",
+            "Prepaid"
+        ]
+    }
+}

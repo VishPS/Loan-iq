@@ -1,0 +1,4 @@
+scenario_name,credit_score_adjustment,interest_rate_adjustment
+Base,0.0,0.0
+Adverse Credit,-50.0,0.0
+High Prepayment,0.0,-1.5

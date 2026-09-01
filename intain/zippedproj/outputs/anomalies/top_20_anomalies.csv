@@ -1,0 +1,21 @@
+loan_id,reporting_period,rule_violation_score,ml_anomaly_score,composite_anomaly_score,exception_required,exception_type,triggered_rules,top_drivers,recommended_action
+100352555665,92013,0.0,100.0,50.0,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100352555665,82013,0.0,99.7042876944876,49.8521438472438,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100352555665,72013,0.0,98.23171355086151,49.11585677543076,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,62013,0.0,93.93151567020738,46.96575783510369,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,82013,0.0,93.93151567020738,46.96575783510369,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,92013,0.0,93.93151567020738,46.96575783510369,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100352555665,62013,0.0,92.26231181007829,46.131155905039144,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,52013,0.0,91.27476444237395,45.637382221186975,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,72013,0.0,91.27476444237395,45.637382221186975,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,42013,0.0,90.84066733798612,45.42033366899306,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,32013,0.0,90.50386022059278,45.25193011029639,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,12013,0.0,90.47138431447873,45.23569215723936,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,22013,0.0,89.45395412453075,44.72697706226538,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,122012,0.0,88.96915955762043,44.484579778810215,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100352555665,52013,0.0,88.66609595752432,44.33304797876216,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+101812620634,22012,0.0,86.53409715904445,43.267048579522225,1,Extreme Statistical Outlier,None,orig_ltv (89.0),Approve manually - possible edge case.
+100829595540,112012,0.0,86.28055631646883,43.140278158234416,1,Extreme Statistical Outlier,None,interest_rate_diff (0.0),Approve manually - possible edge case.
+100829595540,102012,0.0,84.19054168286631,42.095270841433155,0,None,None,interest_rate_diff (0.0),Proceed
+100352555665,42013,0.0,83.5590579747162,41.7795289873581,0,None,None,interest_rate_diff (0.0),Proceed
+100829595540,92012,0.0,82.82257713554512,41.41128856777256,0,None,None,interest_rate_diff (0.0),Proceed
