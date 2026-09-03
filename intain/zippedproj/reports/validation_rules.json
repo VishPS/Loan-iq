@@ -1,6 +1,0 @@
-{
-    "invalid_date": "Dates such as first payment date must occur after the origination date.",
-    "balance_inconsistency": "Current UPB should not exceed Original UPB by more than 5%.",
-    "prepayment_conflict": "A record cannot be flagged as Prepaid (code 1) if it still has a positive UPB.",
-    "stale_record": "Loan age must increment over time. Frozen loan age implies stale servicing data."
-}

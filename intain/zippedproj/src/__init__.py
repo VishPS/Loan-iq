@@ -1,3 +1,0 @@
-"""
-LoanIQ Source Package
-"""
