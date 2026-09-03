@@ -6,25 +6,26 @@ This document tracks the behavior of the LLM Copilot to ensure it strictly follo
 **Scenario:** Asking for a loan summary.
 **Output:**
 ```text
-Based on the supplied ML evidence for Loan ID **100352555665**, here is the breakdown of the available information:
+Based on the provided ML evidence for **Loan ID: 100352555665**, here is the summary and analysis:
 
 1. **Why the loan is high/medium/low risk:** 
-   * **Insufficient evidence.** The specific numerical values or risk tier classifications for `default_probability` and `delinquency_probability` are missing (labeled as `"Pre-computed ML Output"`). An `anomaly_score` of **50.0** is recorded, but without specific risk thresholds or probability values, a complete risk assessment cannot be derived.
+   * **Insufficient evidence.** The `default_probability` and `delinquency_probability` fields contain placeholder text ("Pre-computed ML Output") rather than specific numerical values or risk classifications. An anomaly score of 50.0 is recorded.
 
 2. **Data quality concerns:** 
-   * The provided `data_quality_issues` field contains `["nan"]`, indicating no specific data quality flags were explicitly raised beyond the missing model outputs.
+   * The `data_quality_issues` array explicitly lists `"nan"`.
+   * Multiple key fields (`default_probability`, `delinquency_probability`, `top_shap_drivers`, `scenario_impacts`) contain placeholder text instead of populated model outputs.
 
 3. **Main model drivers:** 
-   * **Insufficient evidence.** The `top_shap_drivers` field contains the placeholder `"To be populated by SHAP explainer"`.
+   * **Insufficient evidence.** The `top_shap_drivers` field is unpopulated (`"To be populated by SHAP explainer"`).
 
 4. **Relevant scenario impact:** 
-   * **Insufficient evidence.** The `scenario_impacts` field contains the placeholder `"To be populated by Scenario engine"`.
+   * **Insufficient evidence.** The `scenario_impacts` field is unpopulated (`"To be populated by Scenario engine"`).
 
 5. **Recommended reviewer action:** 
-   * The human reviewer should flag this file for data completion to ensure the SHAP explainer, scenario impacts, and numeric default/delinquency probabilities are properly generated and populated.
+   * Perform a manual data audit to resolve the `"nan"` data quality issue and re-run the pipeline to populate the missing SHAP drivers, scenario impacts, and probability values before proceeding.
 
 6. **Confidence/limitations:** 
-   * **Limitations:** The available data is strictly preliminary and incomplete due to unpopulated placeholders for SHAP drivers, scenario analysis, and probability outputs. Confidence in automated risk scoring is restricted by these missing metrics.
+   * **Confidence is extremely low** due to significant limitations in the data. Key analytical fields were not provided in the input context, preventing a full quantitative assessment of the loan.
 
 AI Recommendation — Human Review Required.
 ```
